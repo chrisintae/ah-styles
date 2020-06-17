@@ -1,0 +1,31 @@
+// div
+div[data-componentname="Content Block"] {
+	padding: 20px 0 40px !important;
+}
+
+// title
+.contactUsBlock__contactus-container--2eAye h3 {
+	@include h36;
+}
+
+// p
+.contactUsBlock__contactus-desc--1p1xp {
+	padding: 12px 0 10px !important;
+
+	p {
+		max-width: 713px;
+		@include p18;
+		margin: 0 auto;
+	}
+}
+
+// breakpoint
+@media screen and (min-width: $tablet) {
+	div[data-componentname="Content Block"] {
+		padding: 10px 0 60px !important;
+	}
+
+	h3.contactUsBlock__contactus-title--hWkTz span {
+		display: block;
+	}
+}

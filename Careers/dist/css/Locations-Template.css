@@ -1,0 +1,92 @@
+section[component-order="0"] {
+  padding: 0; }
+
+.iconBarstack__icb-cta--1k8do {
+  display: none; }
+
+.iconBarstack__four-stack--Le4Cu h5 {
+  color: #582c83 !important; }
+
+.disclaimer__disclaimer-wrapper--9e-8I {
+  padding: 45px 0 60px; }
+
+.disclaimer__disclaimer-content--35cvt {
+  max-width: 713px !important; }
+
+.disclaimer__disclaimer-wrapper--9e-8I .disclaimer__disclaimer-content--35cvt * {
+  font-family: MetricMedium !important; }
+
+.disclaimer__disclaimer-content--35cvt p span {
+  font-family: MetricMedium !important;
+  font-size: 36px !important;
+  line-height: 1.2 !important; }
+
+.disclaimer__disclaimer-content--35cvt p span > span {
+  display: block;
+  font-size: 18px !important;
+  line-height: 1.33 !important;
+  -webkit-font-smoothing: antialiased;
+  margin-top: 25px; }
+
+.articlePage__wwa-stat--2SUte {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.articlePage__wwa-stat--2SUte h2 p {
+  display: block !important;
+  max-width: 713px;
+  font-family: MetricRegular !important;
+  font-size: 18px !important;
+  line-height: 1.33 !important;
+  -webkit-font-smoothing: antialiased;
+  color: #000 !important;
+  margin: 10px auto 0; }
+
+.articlePage__stat-list--1i_MR {
+  justify-content: space-between;
+  max-width: 1080px !important;
+  padding-top: 20px;
+  margin: 0 auto; }
+
+.articlePage__stat-item--23Kn3 {
+  min-width: unset !important;
+  width: unset !important;
+  margin: 0 auto !important; }
+
+.articlePage__stat-item-icon--2jCxN {
+  max-width: 255px !important;
+  max-height: unset !important; }
+
+.articlePage__stat-item-desc--1L0Oy {
+  display: none; }
+
+@media screen and (min-width: 768px) {
+  .articlePage__wwa-stat--2SUte h2 p {
+    margin: 10px auto 20px; }
+    .articlePage__wwa-stat--2SUte h2 p > span {
+      display: block; } }
+
+div[data-componentid="horizontal_module"] {
+  padding-top: 20px !important; }
+
+@media screen and (min-width: 768px) {
+  div[data-componentid="horizontal_module"] {
+    padding-top: 40px !important; } }
+
+.highlightFeature__might-like-wrapper--2_B3C {
+  max-width: 1080px;
+  border-bottom: 1px solid #d8d8d8;
+  margin: 0 auto; }
+
+@media screen and (min-width: 768px) {
+  .tilesModule__tiles-module-content--CkVxa {
+    max-height: 1355px; }
+  .banner-title span {
+    display: block; } }
+
+div[data-componentid="horizontal_module"] {
+  padding-top: 20px !important; }
+
+@media screen and (min-width: 768px) {
+  div[data-componentid="horizontal_module"] {
+    padding-top: 60px !important; } }

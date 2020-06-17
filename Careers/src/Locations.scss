@@ -1,0 +1,23 @@
+@import './mods/config', './mods/careers-grid', './mods/horizontal-mod';
+
+// tiles grid
+// ! max-height for desktop for properly render columns
+@media screen and (min-width: 768px) {
+	.tilesModule__tiles-module-content--CkVxa {
+		max-height: 1355px;
+	}
+}
+
+// explore remote jobs - disclaimer
+.disclaimer__disclaimer-wrapper--9e-8I {
+	padding: unset !important;
+}
+
+.disclaimer__disclaimer-content--35cvt {
+	max-width: 980px !important;
+	font-size: 18px !important;
+}
+
+.disclaimer__disclaimer-content--35cvt a {
+	font-family: MetricMedium !important;
+}

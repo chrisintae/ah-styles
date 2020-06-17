@@ -1,0 +1,32 @@
+// values and behaviors
+.contactUsBlock__contactus-container--2eAye {
+	max-width: 1080px;
+}
+
+.contactUsBlock__contactus-desc--1p1xp table {
+	margin: 40px auto 0;
+}
+.contactUsBlock__contactus-desc--1p1xp tr {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	justify-content: center;
+}
+.contactUsBlock__contactus-desc--1p1xp td {
+	flex: 1 0 auto;
+	max-width: 200px;
+	margin: 0 10px;
+}
+@media screen and (max-width: 768px) {
+	.contactUsBlock__contactus-desc--1p1xp table {
+		margin-top: 20px;
+	}
+	.contactUsBlock__contactus-desc--1p1xp tr {
+		flex-direction: column;
+	}
+	.contactUsBlock__contactus-desc--1p1xp td {
+		max-width: 250px;
+	}
+	.contactUsBlock__contactus-desc--1p1xp td:nth-child(4) {
+		padding-top: 40px;
+	}
+}

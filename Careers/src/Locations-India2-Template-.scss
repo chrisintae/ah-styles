@@ -1,0 +1,46 @@
+@import './mods/config', './mods/benefitsGrid', './mods/quoteDisclaimer', './mods/horizontal-mod';
+
+.ContentBlock__cb_subwrap--aLr_f {
+	max-width: 1080px !important;
+}
+
+@media screen and (max-width: 767px) {
+	.ContentBlock__cb_img--2dleh img {
+		width: 100% !important;
+	}
+}
+
+@media screen and (min-width: $tablet) {
+	.ContentBlock__cb_copy--3yDQn {
+		max-width: 500px;
+	}
+}
+
+.highlightFeature__might-like-wrapper--2_B3C {
+	max-width: 1080px;
+	border-bottom: 1px solid #d8d8d8;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: $tablet) {
+	// tiles grid
+	// ! max-height for desktop for properly render columns
+	.tilesModule__tiles-module-content--CkVxa {
+		max-height: 1355px;
+	}
+
+	.banner-title span {
+		display: block;
+	}
+}
+
+// horizontal module
+div[data-componentid="horizontal_module"] {
+	padding-top: 20px !important;
+}
+
+// @media screen and (min-width: $tablet) {
+// 	div[data-componentid="horizontal_module"] {
+// 		padding-top: 60px !important;
+// 	}
+// }

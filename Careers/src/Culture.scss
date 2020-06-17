@@ -1,0 +1,21 @@
+@import './mods/config',
+	'./mods/quoteDisclaimer',
+	'./mods/_values-aboutBlock',
+	'./mods/aboutBlock',
+	'./mods/horizontal-mod';
+
+// highlighted feature
+// ! border-top
+// ! max-width 1080px + margin 0 auto
+.highlightFeature__might-like-wrapper--2_B3C {
+	max-width: 1080px;
+	border-top: 1px solid #d8d8d8;
+	margin: 0 auto;
+}
+
+// values & behaviors bg
+// ! background purple
+section[data-componentname="Disclaimer"] + div {
+	background: #582c83;
+	padding-top: 55px !important;
+}

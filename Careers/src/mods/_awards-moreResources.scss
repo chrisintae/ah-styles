@@ -1,0 +1,53 @@
+// More Rources: Awards
+
+.articlePage__wwa-stat--2SUte {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+// subtitle
+.articlePage__wwa-stat--2SUte h2 p {
+	display: block !important;
+	max-width: 713px;
+	font-family: MetricRegular !important;
+	@include p18;
+	color: #000 !important;
+	margin: 10px auto 0;
+}
+
+// ul
+.articlePage__stat-list--1i_MR {
+	justify-content: space-between;
+	max-width: 1080px !important;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+// li
+.articlePage__stat-item--23Kn3 {
+	min-width: unset !important;
+	width: unset !important;
+	margin: 0 auto !important;
+}
+
+// img
+.articlePage__stat-item-icon--2jCxN {
+	max-width: 255px !important;
+	max-height: unset !important;
+}
+
+// desc
+.articlePage__stat-item-desc--1L0Oy {
+	display: none;
+}
+
+// breakpoint
+@media screen and (min-width: $tablet) {
+	.articlePage__wwa-stat--2SUte h2 p {
+		margin: 10px auto 20px;
+
+		& > span {
+			display: block;
+		}
+	}
+}

@@ -1,0 +1,24 @@
+// quote
+.disclaimer__disclaimer-wrapper--9e-8I {
+	padding: 45px 0 60px;
+}
+.disclaimer__disclaimer-content--35cvt {
+	max-width: 713px !important;
+}
+
+.disclaimer__disclaimer-wrapper--9e-8I .disclaimer__disclaimer-content--35cvt * {
+	font-family: MetricMedium !important;
+}
+
+.disclaimer__disclaimer-content--35cvt p span {
+	font-family: MetricMedium !important;
+	font-size: 36px !important;
+	line-height: 1.2 !important;
+}
+
+// if byline added
+.disclaimer__disclaimer-content--35cvt p span > span {
+	display: block;
+	@include p18;
+	margin-top: 25px;
+}

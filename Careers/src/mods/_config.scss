@@ -1,0 +1,19 @@
+$tablet: 768px;
+
+@mixin p18 {
+	font-size: 18px !important;
+	line-height: 1.33 !important;
+	-webkit-font-smoothing: antialiased;
+}
+
+@mixin h36 {
+	font-size: 36px !important;
+	line-height: 1.17 !important;
+	-webkit-font-smoothing: antialiased;
+}
+
+// CSS - Free HTML
+// ! Remove padding-top
+section[component-order="0"] {
+	padding: 0;
+}

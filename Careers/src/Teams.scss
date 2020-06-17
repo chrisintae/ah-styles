@@ -1,0 +1,9 @@
+@import './mods/config', './mods/careers-grid', './mods/horizontal-mod';
+
+// tiles grid
+// ! max-height for desktop for properly render columns
+@media screen and (min-width: 768px) {
+	.tilesModule__tiles-module-content--CkVxa {
+		max-height: 1355px;
+	}
+}
